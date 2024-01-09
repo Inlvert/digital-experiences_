@@ -1,0 +1,35 @@
+.navbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 10px;
+  &:hover {
+    text-decoration: underline;
+    color: #b285ff;
+  }
+}
+
+.divlogo {
+  margin-left: 20px;
+}
+
+.btn {
+  margin-right: 20px;
+  padding: 8px 24px;
+  text-decoration: none;
+  font-weight: 400;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  &:hover {
+    background-color: #b285ff;
+    color: white;
+  }
+}
