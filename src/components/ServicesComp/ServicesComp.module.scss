@@ -1,5 +1,6 @@
 .wrapper {
   background: var(--LP-2-Light-Colour, #ffefe4);
+  
   display: flex;
   width: auto;
   padding: 120px 80px;
@@ -10,10 +11,12 @@
 }
 
 .contentWrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 48px;
+  
 }
 
 .headerWrapper {
@@ -50,6 +53,7 @@
   display: flex;
   align-items: flex-start;
   gap: 64px;
+  z-index: 1;
 }
 
 .cardLayout {
@@ -148,6 +152,17 @@
   color: white;
   &:hover {
     background-color: #b285ff;
-    
   }
+}
+
+.circule6 {
+  position: absolute;
+  left: -200px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.circule7 {
+  position: absolute;
+  right: 0;
 }

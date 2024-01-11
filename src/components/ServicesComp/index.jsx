@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./ServicesComp.module.scss";
 import classNames from "classnames";
+import { ReactComponent as Circul6 } from "./svg/circul6.svg";
+import { ReactComponent as Circul7 } from "./svg/circul7.svg";
 
 export default function ServicesComp() {
   const className = classNames(styles.serviceCard1, styles.cardLayout);
@@ -10,6 +12,8 @@ export default function ServicesComp() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.contentWrapper}>
+        <Circul6 className={styles.circule6} />
+        <Circul7 className={styles.circule7} />
         <div className={styles.headerWrapper}>
           <text className={styles.tagText}>services</text>
           <h2 className={styles.tagH2}>My expertise</h2>
@@ -95,7 +99,6 @@ export default function ServicesComp() {
             </div>
           </div>
         </div>
-
         <a href="##" className={styles.btn}>
           Get in touch!
         </a>
