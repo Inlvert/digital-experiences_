@@ -5,9 +5,10 @@ import WorksPage from "./pages/WorksPage";
 import AboutPage from "./pages/AboutPage";
 import ServicesPage from "./pages/ServicesPage";
 import Contact from "./pages/ContactPage";
-
 import Header from "./components/Header";
 import LogoBar from "./components/LogoBar";
+import AbotuMe from "./components/AboutMe";
+import ServicesComp from "./components/ServicesComp";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
             <AboutPage />
             <Header/>
             <LogoBar/>
+            <AbotuMe />
+            <ServicesComp/>
           </Route>
         </Switch>
       </>
