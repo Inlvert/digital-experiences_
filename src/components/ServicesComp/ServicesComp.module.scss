@@ -1,0 +1,153 @@
+.wrapper {
+  background: var(--LP-2-Light-Colour, #ffefe4);
+  display: flex;
+  width: auto;
+  padding: 120px 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.tagText {
+  color: var(--LP-2-Colour-1, #b285ff);
+
+  /* LP 2/Desktop/Tag Text */
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.tagH2 {
+  color: var(--LP-2-Dark-Colour, #1b1b1b);
+  text-align: center;
+
+  /* LP 2/Desktop/Header 2 */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 40px */
+}
+
+.cardWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+.cardLayout {
+  display: flex;
+  height: 296px;
+  padding: 48px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.serviceCard1 {
+  border-radius: 12px;
+  background: var(--LP-1-Primary-Colour, #927de3);
+  box-shadow: 8px 8px 0px 0px rgba(20, 20, 20, 0.16);
+}
+
+.serviceCard2 {
+  border-radius: 12px;
+  background: var(--LP-2-Colour-2, #ffd885);
+}
+
+.serviceCard3 {
+  border-radius: 12px;
+  background: var(--LP-2-Colour-3, #d2ff85);
+}
+
+.serviceText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.serviceH3 {
+  width: 261px;
+
+  color: #fff;
+  /* LP 2/Desktop/Heading 3 */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 28px */
+}
+
+.serviceParagraf {
+  width: 260px;
+  color: #fff;
+
+  /* LP 2/Desktop/Paragraph 2 */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.serviceH3_2 {
+  color: var(--LP-2-Dark-Colour, #1b1b1b);
+
+  /* LP 2/Desktop/Heading 3 */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 28px */
+}
+
+.serviceText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.serviceParagraf_2 {
+  width: 260px;
+  flex: 1 0 0;
+  color: rgba(27, 27, 27, 0.8);
+
+  /* LP 2/Desktop/Paragraph 2 */
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+}
+
+.btn {
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  background: var(--LP-2-Colour-4, #ff85d2);
+  text-decoration: none;
+  color: white;
+  &:hover {
+    background-color: #b285ff;
+    
+  }
+}
