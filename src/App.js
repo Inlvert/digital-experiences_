@@ -9,6 +9,8 @@ import Header from "./components/Header";
 import LogoBar from "./components/LogoBar";
 import AbotuMe from "./components/AboutMe";
 import ServicesComp from "./components/ServicesComp";
+import ProjectComp from "./components/ProjectComp";
+
 
 function App() {
   return (
@@ -32,7 +34,8 @@ function App() {
             <Header/>
             <LogoBar/>
             <AbotuMe />
-            <ServicesComp/>
+            <ServicesComp />
+            <ProjectComp />
           </Route>
         </Switch>
       </>
