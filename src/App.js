@@ -10,7 +10,8 @@ import LogoBar from "./components/LogoBar";
 import AbotuMe from "./components/AboutMe";
 import ServicesComp from "./components/ServicesComp";
 import ProjectComp from "./components/ProjectComp";
-
+import Testimonial from "./components/Testimonial";
+import { ClientTestimal } from "./components/ClientTestimal";
 
 function App() {
   return (
@@ -28,14 +29,16 @@ function App() {
           </Route>
           <Route path="/works">
             <WorksPage />
+            <ClientTestimal />
           </Route>
           <Route path="/">
             <AboutPage />
-            <Header/>
-            <LogoBar/>
+            <Header />
+            <LogoBar />
             <AbotuMe />
             <ServicesComp />
             <ProjectComp />
+            <Testimonial />
           </Route>
         </Switch>
       </>
