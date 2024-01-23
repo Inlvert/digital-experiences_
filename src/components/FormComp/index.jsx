@@ -19,7 +19,7 @@ export const FormComp = (props) => {
   };
 
   return (
-    <Formik initialValues={initialValues} onSabmit={handleSignUp}>
+    <Formik initialValues={initialValues} onSubmit={handleSignUp}>
       <Form action="">
         <Field type="text" name="name" placeholder="name" />
         <Field type="text" name="sureName" placeholder="sureName" />
