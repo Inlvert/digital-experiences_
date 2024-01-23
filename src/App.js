@@ -12,6 +12,7 @@ import ServicesComp from "./components/ServicesComp";
 import ProjectComp from "./components/ProjectComp";
 import Testimonial from "./components/Testimonial";
 import { ClientTestimal } from "./components/ClientTestimal";
+import ContactComp from "./components/ContactComp"
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             <ServicesComp />
             <ProjectComp />
             <Testimonial />
+            <ContactComp />
           </Route>
         </Switch>
       </>
