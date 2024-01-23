@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Contact.module.scss";
+import { FormComp } from "../FormComp/index";
 
 function ContactComp() {
   return (
@@ -14,6 +15,7 @@ function ContactComp() {
               elevating online interactions and setting new standards for
               digital excellence.
             </p>
+            <FormComp />
           </div>
         </div>
       </div>
