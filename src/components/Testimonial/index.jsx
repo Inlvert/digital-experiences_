@@ -25,6 +25,7 @@ const dataTestimonial = [
     svg: Svg2,
   },
   
+  
 ];
 
 export default function Testimonial() {

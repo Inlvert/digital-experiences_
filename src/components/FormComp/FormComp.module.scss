@@ -1,0 +1,91 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+}
+
+.sureNameImput,
+.nameImput {
+  border: none;
+  color: inherit;
+  display: flex;
+  width: 308px;
+  padding: 12px 0px;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+
+  border-bottom: 1px solid var(--LP-2-Dark-Colour, #1b1b1b);
+}
+
+.divNameImput {
+  flex-direction: column;
+}
+
+.imputStyle {
+  display: flex;
+  border: none;
+  width: 632px;
+  padding: 12px 0px;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border-bottom: 1px solid var(--LP-2-Dark-Colour, #1b1b1b);
+}
+
+.imputTextarea {
+  display: flex;
+  border: none;
+  height: 150px;
+  width: 632px;
+  padding: 12px 0px;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border-bottom: 1px solid var(--LP-2-Dark-Colour, #1b1b1b);
+}
+
+.btn {
+  border: none;
+  margin-right: 20px;
+  padding: 8px 24px;
+  text-decoration: none;
+  font-weight: 400;
+  background-color: #000000;
+  color: white;
+  border-radius: 20px;
+  text-wrap: nowrap;
+  &:hover {
+    background-color: #b285ff;
+    color: white;
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  
+}
+
+.buttonWrapperText {
+  max-width: 324px;
+  color: rgba(27, 27, 27, 0.8);
+ 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 14px */
+}

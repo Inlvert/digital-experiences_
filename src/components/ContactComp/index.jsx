@@ -7,7 +7,7 @@ function ContactComp() {
     <div className={styles.wrapper}>
       <div className={styles.contactSection}>
         <div className={styles.textWrapper}>
-          <p className={styles.textContact}>consstact</p>
+          <p className={styles.textContact}>contact</p>
           <div className={styles.text}>
             <h2 className={styles.heading2}>Ready to start your project?</h2>
             <p className={styles.paragraph}>
@@ -15,9 +15,9 @@ function ContactComp() {
               elevating online interactions and setting new standards for
               digital excellence.
             </p>
-            <FormComp />
           </div>
         </div>
+        <FormComp />
       </div>
     </div>
   );
