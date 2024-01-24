@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Contact.module.scss";
 import { FormComp } from "../FormComp/index";
+import {Footer} from "../Footer/index"
 
 function ContactComp() {
   return (
@@ -19,6 +20,7 @@ function ContactComp() {
         </div>
         <FormComp />
       </div>
+      <Footer />
     </div>
   );
 }
